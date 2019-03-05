@@ -1,0 +1,15 @@
+1暴露配置
+
+2 less
+
+
+
+3 yarn add babel-plugin-import
+
+（搜索babel-loader的对）
+options属  plugins数组 添加
+
+ ['import',[{
+                    libraryName:'antd',
+                    style:true
+                  }]],
